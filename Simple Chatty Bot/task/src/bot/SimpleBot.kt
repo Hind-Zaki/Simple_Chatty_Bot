@@ -1,9 +1,16 @@
 package bot
 
+import java.util.Scanner
+
 fun main() {
 
-    val name = "Hind"
-    val birth = 1987
-    println("Hello! My name is $name .\n I was created in $birth .")
+    val scanner = Scanner(System.`in`)
 
+    println("Hello! My name is Aid.")
+    println("I was created in 2020.")
+    println("Please, remind me your name.")
+
+    val customerName = scanner.next()
+
+    println("What a great name you have, $customerName!")
 }
